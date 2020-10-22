@@ -1,0 +1,11 @@
+C:\Users\Administrador\source\repos\ReservaCochera\bin\Debug\ReservaCochera.exe.config
+C:\Users\Administrador\source\repos\ReservaCochera\bin\Debug\ReservaCochera.exe
+C:\Users\Administrador\source\repos\ReservaCochera\bin\Debug\ReservaCochera.pdb
+C:\Users\Administrador\source\repos\ReservaCochera\obj\Debug\ReservaCochera.csprojAssemblyReference.cache
+C:\Users\Administrador\source\repos\ReservaCochera\obj\Debug\ReservaCochera.Properties.Resources.resources
+C:\Users\Administrador\source\repos\ReservaCochera\obj\Debug\ReservaCochera.csproj.GenerateResource.cache
+C:\Users\Administrador\source\repos\ReservaCochera\obj\Debug\ReservaCochera.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\source\repos\ReservaCochera\obj\Debug\ReservaCochera.exe
+C:\Users\Administrador\source\repos\ReservaCochera\obj\Debug\ReservaCochera.pdb
+C:\Users\Administrador\source\repos\ReservaCochera\obj\Debug\ReservaCochera.Reserva.resources
+C:\Users\Administrador\source\repos\ReservaCochera\obj\Debug\ReservaCochera.ConfirmacionReserva.resources
