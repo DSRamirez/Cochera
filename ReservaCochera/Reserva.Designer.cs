@@ -42,28 +42,6 @@
             this.RbAuto = new System.Windows.Forms.RadioButton();
             this.PbCocheras = new System.Windows.Forms.PictureBox();
             this.GbReserva = new System.Windows.Forms.GroupBox();
-            this.BtRes21 = new System.Windows.Forms.Button();
-            this.BtRes13 = new System.Windows.Forms.Button();
-            this.BtRes1 = new System.Windows.Forms.Button();
-            this.BtRes14 = new System.Windows.Forms.Button();
-            this.BtRes2 = new System.Windows.Forms.Button();
-            this.BtRes15 = new System.Windows.Forms.Button();
-            this.BtRes3 = new System.Windows.Forms.Button();
-            this.BtRes16 = new System.Windows.Forms.Button();
-            this.BtRes4 = new System.Windows.Forms.Button();
-            this.BtRes17 = new System.Windows.Forms.Button();
-            this.BtRes5 = new System.Windows.Forms.Button();
-            this.BtRes18 = new System.Windows.Forms.Button();
-            this.BtRes6 = new System.Windows.Forms.Button();
-            this.BtRes19 = new System.Windows.Forms.Button();
-            this.BtRes7 = new System.Windows.Forms.Button();
-            this.BtRes20 = new System.Windows.Forms.Button();
-            this.BtRes8 = new System.Windows.Forms.Button();
-            this.BtRes9 = new System.Windows.Forms.Button();
-            this.BtRes22 = new System.Windows.Forms.Button();
-            this.BtRes10 = new System.Windows.Forms.Button();
-            this.BtRes12 = new System.Windows.Forms.Button();
-            this.BtRes11 = new System.Windows.Forms.Button();
             this.CbPlan = new System.Windows.Forms.ComboBox();
             this.LblPlan = new System.Windows.Forms.Label();
             this.txtDomicilio = new System.Windows.Forms.TextBox();
@@ -75,6 +53,29 @@
             this.BtCancelar = new System.Windows.Forms.Button();
             this.txtDominio = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.cb1 = new System.Windows.Forms.CheckBox();
+            this.cb2 = new System.Windows.Forms.CheckBox();
+            this.cb3 = new System.Windows.Forms.CheckBox();
+            this.cb4 = new System.Windows.Forms.CheckBox();
+            this.cb5 = new System.Windows.Forms.CheckBox();
+            this.cb6 = new System.Windows.Forms.CheckBox();
+            this.cb7 = new System.Windows.Forms.CheckBox();
+            this.cb8 = new System.Windows.Forms.CheckBox();
+            this.cb9 = new System.Windows.Forms.CheckBox();
+            this.cb10 = new System.Windows.Forms.CheckBox();
+            this.cb11 = new System.Windows.Forms.CheckBox();
+            this.cb12 = new System.Windows.Forms.CheckBox();
+            this.cb22 = new System.Windows.Forms.CheckBox();
+            this.cb21 = new System.Windows.Forms.CheckBox();
+            this.cb20 = new System.Windows.Forms.CheckBox();
+            this.cb19 = new System.Windows.Forms.CheckBox();
+            this.cb18 = new System.Windows.Forms.CheckBox();
+            this.cb17 = new System.Windows.Forms.CheckBox();
+            this.cb16 = new System.Windows.Forms.CheckBox();
+            this.cb15 = new System.Windows.Forms.CheckBox();
+            this.cb14 = new System.Windows.Forms.CheckBox();
+            this.cb13 = new System.Windows.Forms.CheckBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.GbVehiculo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbCocheras)).BeginInit();
             this.GbReserva.SuspendLayout();
@@ -188,6 +189,7 @@
             this.RbAuto.TabIndex = 0;
             this.RbAuto.Text = "Auto";
             this.RbAuto.UseVisualStyleBackColor = true;
+            this.RbAuto.CheckedChanged += new System.EventHandler(this.RbAuto_CheckedChanged);
             // 
             // PbCocheras
             // 
@@ -201,253 +203,33 @@
             // GbReserva
             // 
             this.GbReserva.BackColor = System.Drawing.Color.White;
-            this.GbReserva.Controls.Add(this.BtRes21);
-            this.GbReserva.Controls.Add(this.BtRes13);
-            this.GbReserva.Controls.Add(this.BtRes1);
-            this.GbReserva.Controls.Add(this.BtRes14);
-            this.GbReserva.Controls.Add(this.BtRes2);
-            this.GbReserva.Controls.Add(this.BtRes15);
-            this.GbReserva.Controls.Add(this.BtRes3);
-            this.GbReserva.Controls.Add(this.BtRes16);
-            this.GbReserva.Controls.Add(this.BtRes4);
-            this.GbReserva.Controls.Add(this.BtRes17);
-            this.GbReserva.Controls.Add(this.BtRes5);
-            this.GbReserva.Controls.Add(this.BtRes18);
-            this.GbReserva.Controls.Add(this.BtRes6);
-            this.GbReserva.Controls.Add(this.BtRes19);
-            this.GbReserva.Controls.Add(this.BtRes7);
-            this.GbReserva.Controls.Add(this.BtRes20);
-            this.GbReserva.Controls.Add(this.BtRes8);
-            this.GbReserva.Controls.Add(this.BtRes9);
-            this.GbReserva.Controls.Add(this.BtRes22);
-            this.GbReserva.Controls.Add(this.BtRes10);
-            this.GbReserva.Controls.Add(this.BtRes12);
-            this.GbReserva.Controls.Add(this.BtRes11);
+            this.GbReserva.Controls.Add(this.cb13);
+            this.GbReserva.Controls.Add(this.cb14);
+            this.GbReserva.Controls.Add(this.cb15);
+            this.GbReserva.Controls.Add(this.cb16);
+            this.GbReserva.Controls.Add(this.cb17);
+            this.GbReserva.Controls.Add(this.cb18);
+            this.GbReserva.Controls.Add(this.cb19);
+            this.GbReserva.Controls.Add(this.cb20);
+            this.GbReserva.Controls.Add(this.cb21);
+            this.GbReserva.Controls.Add(this.cb22);
+            this.GbReserva.Controls.Add(this.cb12);
+            this.GbReserva.Controls.Add(this.cb11);
+            this.GbReserva.Controls.Add(this.cb10);
+            this.GbReserva.Controls.Add(this.cb9);
+            this.GbReserva.Controls.Add(this.cb8);
+            this.GbReserva.Controls.Add(this.cb7);
+            this.GbReserva.Controls.Add(this.cb6);
+            this.GbReserva.Controls.Add(this.cb5);
+            this.GbReserva.Controls.Add(this.cb4);
+            this.GbReserva.Controls.Add(this.cb3);
+            this.GbReserva.Controls.Add(this.cb2);
+            this.GbReserva.Controls.Add(this.cb1);
             this.GbReserva.Location = new System.Drawing.Point(43, 487);
             this.GbReserva.Name = "GbReserva";
             this.GbReserva.Size = new System.Drawing.Size(906, 137);
             this.GbReserva.TabIndex = 55;
             this.GbReserva.TabStop = false;
-            // 
-            // BtRes21
-            // 
-            this.BtRes21.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes21.Location = new System.Drawing.Point(88, 105);
-            this.BtRes21.Name = "BtRes21";
-            this.BtRes21.Size = new System.Drawing.Size(67, 23);
-            this.BtRes21.TabIndex = 24;
-            this.BtRes21.Text = "Reservar";
-            this.BtRes21.UseVisualStyleBackColor = true;
-            // 
-            // BtRes13
-            // 
-            this.BtRes13.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes13.Location = new System.Drawing.Point(711, 105);
-            this.BtRes13.Name = "BtRes13";
-            this.BtRes13.Size = new System.Drawing.Size(67, 23);
-            this.BtRes13.TabIndex = 32;
-            this.BtRes13.Text = "Reservar";
-            this.BtRes13.UseVisualStyleBackColor = true;
-            // 
-            // BtRes1
-            // 
-            this.BtRes1.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes1.Location = new System.Drawing.Point(11, 19);
-            this.BtRes1.Name = "BtRes1";
-            this.BtRes1.Size = new System.Drawing.Size(67, 23);
-            this.BtRes1.TabIndex = 11;
-            this.BtRes1.Text = "Reservar";
-            this.BtRes1.UseVisualStyleBackColor = true;
-            // 
-            // BtRes14
-            // 
-            this.BtRes14.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes14.Location = new System.Drawing.Point(635, 105);
-            this.BtRes14.Name = "BtRes14";
-            this.BtRes14.Size = new System.Drawing.Size(67, 23);
-            this.BtRes14.TabIndex = 31;
-            this.BtRes14.Text = "Reservar";
-            this.BtRes14.UseVisualStyleBackColor = true;
-            // 
-            // BtRes2
-            // 
-            this.BtRes2.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes2.Location = new System.Drawing.Point(93, 19);
-            this.BtRes2.Name = "BtRes2";
-            this.BtRes2.Size = new System.Drawing.Size(67, 23);
-            this.BtRes2.TabIndex = 12;
-            this.BtRes2.Text = "Reservar";
-            this.BtRes2.UseVisualStyleBackColor = true;
-            // 
-            // BtRes15
-            // 
-            this.BtRes15.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes15.Location = new System.Drawing.Point(555, 105);
-            this.BtRes15.Name = "BtRes15";
-            this.BtRes15.Size = new System.Drawing.Size(67, 23);
-            this.BtRes15.TabIndex = 30;
-            this.BtRes15.Text = "Reservar";
-            this.BtRes15.UseVisualStyleBackColor = true;
-            // 
-            // BtRes3
-            // 
-            this.BtRes3.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes3.Location = new System.Drawing.Point(166, 19);
-            this.BtRes3.Name = "BtRes3";
-            this.BtRes3.Size = new System.Drawing.Size(67, 23);
-            this.BtRes3.TabIndex = 13;
-            this.BtRes3.Text = "Reservar";
-            this.BtRes3.UseVisualStyleBackColor = true;
-            // 
-            // BtRes16
-            // 
-            this.BtRes16.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes16.Location = new System.Drawing.Point(482, 105);
-            this.BtRes16.Name = "BtRes16";
-            this.BtRes16.Size = new System.Drawing.Size(67, 23);
-            this.BtRes16.TabIndex = 29;
-            this.BtRes16.Text = "Reservar";
-            this.BtRes16.UseVisualStyleBackColor = true;
-            // 
-            // BtRes4
-            // 
-            this.BtRes4.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes4.Location = new System.Drawing.Point(239, 19);
-            this.BtRes4.Name = "BtRes4";
-            this.BtRes4.Size = new System.Drawing.Size(67, 23);
-            this.BtRes4.TabIndex = 14;
-            this.BtRes4.Text = "Reservar";
-            this.BtRes4.UseVisualStyleBackColor = true;
-            // 
-            // BtRes17
-            // 
-            this.BtRes17.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes17.Location = new System.Drawing.Point(409, 105);
-            this.BtRes17.Name = "BtRes17";
-            this.BtRes17.Size = new System.Drawing.Size(67, 23);
-            this.BtRes17.TabIndex = 28;
-            this.BtRes17.Text = "Reservar";
-            this.BtRes17.UseVisualStyleBackColor = true;
-            // 
-            // BtRes5
-            // 
-            this.BtRes5.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes5.Location = new System.Drawing.Point(312, 19);
-            this.BtRes5.Name = "BtRes5";
-            this.BtRes5.Size = new System.Drawing.Size(67, 23);
-            this.BtRes5.TabIndex = 15;
-            this.BtRes5.Text = "Reservar";
-            this.BtRes5.UseVisualStyleBackColor = true;
-            // 
-            // BtRes18
-            // 
-            this.BtRes18.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes18.Location = new System.Drawing.Point(336, 105);
-            this.BtRes18.Name = "BtRes18";
-            this.BtRes18.Size = new System.Drawing.Size(67, 23);
-            this.BtRes18.TabIndex = 27;
-            this.BtRes18.Text = "Reservar";
-            this.BtRes18.UseVisualStyleBackColor = true;
-            // 
-            // BtRes6
-            // 
-            this.BtRes6.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes6.Location = new System.Drawing.Point(385, 19);
-            this.BtRes6.Name = "BtRes6";
-            this.BtRes6.Size = new System.Drawing.Size(67, 23);
-            this.BtRes6.TabIndex = 16;
-            this.BtRes6.Text = "Reservar";
-            this.BtRes6.UseVisualStyleBackColor = true;
-            // 
-            // BtRes19
-            // 
-            this.BtRes19.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes19.Location = new System.Drawing.Point(254, 105);
-            this.BtRes19.Name = "BtRes19";
-            this.BtRes19.Size = new System.Drawing.Size(67, 23);
-            this.BtRes19.TabIndex = 26;
-            this.BtRes19.Text = "Reservar";
-            this.BtRes19.UseVisualStyleBackColor = true;
-            // 
-            // BtRes7
-            // 
-            this.BtRes7.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes7.Location = new System.Drawing.Point(458, 19);
-            this.BtRes7.Name = "BtRes7";
-            this.BtRes7.Size = new System.Drawing.Size(67, 23);
-            this.BtRes7.TabIndex = 17;
-            this.BtRes7.Text = "Reservar";
-            this.BtRes7.UseVisualStyleBackColor = true;
-            // 
-            // BtRes20
-            // 
-            this.BtRes20.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes20.Location = new System.Drawing.Point(171, 105);
-            this.BtRes20.Name = "BtRes20";
-            this.BtRes20.Size = new System.Drawing.Size(67, 23);
-            this.BtRes20.TabIndex = 25;
-            this.BtRes20.Text = "Reservar";
-            this.BtRes20.UseVisualStyleBackColor = true;
-            // 
-            // BtRes8
-            // 
-            this.BtRes8.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes8.Location = new System.Drawing.Point(531, 19);
-            this.BtRes8.Name = "BtRes8";
-            this.BtRes8.Size = new System.Drawing.Size(67, 23);
-            this.BtRes8.TabIndex = 18;
-            this.BtRes8.Text = "Reservar";
-            this.BtRes8.UseVisualStyleBackColor = true;
-            // 
-            // BtRes9
-            // 
-            this.BtRes9.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes9.Location = new System.Drawing.Point(604, 19);
-            this.BtRes9.Name = "BtRes9";
-            this.BtRes9.Size = new System.Drawing.Size(67, 23);
-            this.BtRes9.TabIndex = 19;
-            this.BtRes9.Text = "Reservar";
-            this.BtRes9.UseVisualStyleBackColor = true;
-            // 
-            // BtRes22
-            // 
-            this.BtRes22.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes22.Location = new System.Drawing.Point(6, 105);
-            this.BtRes22.Name = "BtRes22";
-            this.BtRes22.Size = new System.Drawing.Size(67, 23);
-            this.BtRes22.TabIndex = 23;
-            this.BtRes22.Text = "Reservar";
-            this.BtRes22.UseVisualStyleBackColor = true;
-            // 
-            // BtRes10
-            // 
-            this.BtRes10.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes10.Location = new System.Drawing.Point(677, 19);
-            this.BtRes10.Name = "BtRes10";
-            this.BtRes10.Size = new System.Drawing.Size(67, 23);
-            this.BtRes10.TabIndex = 20;
-            this.BtRes10.Text = "Reservar";
-            this.BtRes10.UseVisualStyleBackColor = true;
-            // 
-            // BtRes12
-            // 
-            this.BtRes12.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes12.Location = new System.Drawing.Point(832, 19);
-            this.BtRes12.Name = "BtRes12";
-            this.BtRes12.Size = new System.Drawing.Size(67, 23);
-            this.BtRes12.TabIndex = 22;
-            this.BtRes12.Text = "Reservar";
-            this.BtRes12.UseVisualStyleBackColor = true;
-            // 
-            // BtRes11
-            // 
-            this.BtRes11.Font = new System.Drawing.Font("Microsoft Tai Le", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtRes11.Location = new System.Drawing.Point(750, 19);
-            this.BtRes11.Name = "BtRes11";
-            this.BtRes11.Size = new System.Drawing.Size(67, 23);
-            this.BtRes11.TabIndex = 21;
-            this.BtRes11.Text = "Reservar";
-            this.BtRes11.UseVisualStyleBackColor = true;
             // 
             // CbPlan
             // 
@@ -562,11 +344,242 @@
             this.label1.TabIndex = 66;
             this.label1.Text = "Dominio:";
             // 
+            // cb1
+            // 
+            this.cb1.AutoSize = true;
+            this.cb1.Location = new System.Drawing.Point(41, 9);
+            this.cb1.Name = "cb1";
+            this.cb1.Size = new System.Drawing.Size(15, 14);
+            this.cb1.TabIndex = 0;
+            this.cb1.UseVisualStyleBackColor = true;
+            this.cb1.Visible = false;
+            // 
+            // cb2
+            // 
+            this.cb2.AutoSize = true;
+            this.cb2.Location = new System.Drawing.Point(120, 9);
+            this.cb2.Name = "cb2";
+            this.cb2.Size = new System.Drawing.Size(15, 14);
+            this.cb2.TabIndex = 1;
+            this.cb2.UseVisualStyleBackColor = true;
+            this.cb2.Visible = false;
+            // 
+            // cb3
+            // 
+            this.cb3.AutoSize = true;
+            this.cb3.Location = new System.Drawing.Point(195, 9);
+            this.cb3.Name = "cb3";
+            this.cb3.Size = new System.Drawing.Size(15, 14);
+            this.cb3.TabIndex = 2;
+            this.cb3.UseVisualStyleBackColor = true;
+            this.cb3.Visible = false;
+            // 
+            // cb4
+            // 
+            this.cb4.AutoSize = true;
+            this.cb4.Location = new System.Drawing.Point(262, 9);
+            this.cb4.Name = "cb4";
+            this.cb4.Size = new System.Drawing.Size(15, 14);
+            this.cb4.TabIndex = 3;
+            this.cb4.UseVisualStyleBackColor = true;
+            this.cb4.Visible = false;
+            // 
+            // cb5
+            // 
+            this.cb5.AutoSize = true;
+            this.cb5.Location = new System.Drawing.Point(340, 9);
+            this.cb5.Name = "cb5";
+            this.cb5.Size = new System.Drawing.Size(15, 14);
+            this.cb5.TabIndex = 4;
+            this.cb5.UseVisualStyleBackColor = true;
+            this.cb5.Visible = false;
+            // 
+            // cb6
+            // 
+            this.cb6.AutoSize = true;
+            this.cb6.Location = new System.Drawing.Point(412, 9);
+            this.cb6.Name = "cb6";
+            this.cb6.Size = new System.Drawing.Size(15, 14);
+            this.cb6.TabIndex = 5;
+            this.cb6.UseVisualStyleBackColor = true;
+            this.cb6.Visible = false;
+            // 
+            // cb7
+            // 
+            this.cb7.AutoSize = true;
+            this.cb7.Location = new System.Drawing.Point(488, 9);
+            this.cb7.Name = "cb7";
+            this.cb7.Size = new System.Drawing.Size(15, 14);
+            this.cb7.TabIndex = 6;
+            this.cb7.UseVisualStyleBackColor = true;
+            this.cb7.Visible = false;
+            // 
+            // cb8
+            // 
+            this.cb8.AutoSize = true;
+            this.cb8.Location = new System.Drawing.Point(554, 9);
+            this.cb8.Name = "cb8";
+            this.cb8.Size = new System.Drawing.Size(15, 14);
+            this.cb8.TabIndex = 7;
+            this.cb8.UseVisualStyleBackColor = true;
+            this.cb8.Visible = false;
+            // 
+            // cb9
+            // 
+            this.cb9.AutoSize = true;
+            this.cb9.Location = new System.Drawing.Point(629, 9);
+            this.cb9.Name = "cb9";
+            this.cb9.Size = new System.Drawing.Size(15, 14);
+            this.cb9.TabIndex = 8;
+            this.cb9.UseVisualStyleBackColor = true;
+            this.cb9.Visible = false;
+            // 
+            // cb10
+            // 
+            this.cb10.AutoSize = true;
+            this.cb10.Location = new System.Drawing.Point(700, 9);
+            this.cb10.Name = "cb10";
+            this.cb10.Size = new System.Drawing.Size(15, 14);
+            this.cb10.TabIndex = 9;
+            this.cb10.UseVisualStyleBackColor = true;
+            this.cb10.Visible = false;
+            // 
+            // cb11
+            // 
+            this.cb11.AutoSize = true;
+            this.cb11.Location = new System.Drawing.Point(776, 9);
+            this.cb11.Name = "cb11";
+            this.cb11.Size = new System.Drawing.Size(15, 14);
+            this.cb11.TabIndex = 10;
+            this.cb11.UseVisualStyleBackColor = true;
+            this.cb11.Visible = false;
+            // 
+            // cb12
+            // 
+            this.cb12.AutoSize = true;
+            this.cb12.Location = new System.Drawing.Point(854, 9);
+            this.cb12.Name = "cb12";
+            this.cb12.Size = new System.Drawing.Size(15, 14);
+            this.cb12.TabIndex = 11;
+            this.cb12.UseVisualStyleBackColor = true;
+            this.cb12.Visible = false;
+            // 
+            // cb22
+            // 
+            this.cb22.AutoSize = true;
+            this.cb22.Location = new System.Drawing.Point(32, 117);
+            this.cb22.Name = "cb22";
+            this.cb22.Size = new System.Drawing.Size(15, 14);
+            this.cb22.TabIndex = 12;
+            this.cb22.UseVisualStyleBackColor = true;
+            this.cb22.Visible = false;
+            // 
+            // cb21
+            // 
+            this.cb21.AutoSize = true;
+            this.cb21.Location = new System.Drawing.Point(109, 117);
+            this.cb21.Name = "cb21";
+            this.cb21.Size = new System.Drawing.Size(15, 14);
+            this.cb21.TabIndex = 13;
+            this.cb21.UseVisualStyleBackColor = true;
+            this.cb21.Visible = false;
+            // 
+            // cb20
+            // 
+            this.cb20.AutoSize = true;
+            this.cb20.Location = new System.Drawing.Point(195, 117);
+            this.cb20.Name = "cb20";
+            this.cb20.Size = new System.Drawing.Size(15, 14);
+            this.cb20.TabIndex = 14;
+            this.cb20.UseVisualStyleBackColor = true;
+            this.cb20.Visible = false;
+            // 
+            // cb19
+            // 
+            this.cb19.AutoSize = true;
+            this.cb19.Location = new System.Drawing.Point(279, 117);
+            this.cb19.Name = "cb19";
+            this.cb19.Size = new System.Drawing.Size(15, 14);
+            this.cb19.TabIndex = 15;
+            this.cb19.UseVisualStyleBackColor = true;
+            this.cb19.Visible = false;
+            // 
+            // cb18
+            // 
+            this.cb18.AutoSize = true;
+            this.cb18.Location = new System.Drawing.Point(358, 117);
+            this.cb18.Name = "cb18";
+            this.cb18.Size = new System.Drawing.Size(15, 14);
+            this.cb18.TabIndex = 16;
+            this.cb18.UseVisualStyleBackColor = true;
+            this.cb18.Visible = false;
+            // 
+            // cb17
+            // 
+            this.cb17.AutoSize = true;
+            this.cb17.Location = new System.Drawing.Point(427, 117);
+            this.cb17.Name = "cb17";
+            this.cb17.Size = new System.Drawing.Size(15, 14);
+            this.cb17.TabIndex = 17;
+            this.cb17.UseVisualStyleBackColor = true;
+            this.cb17.Visible = false;
+            // 
+            // cb16
+            // 
+            this.cb16.AutoSize = true;
+            this.cb16.Location = new System.Drawing.Point(510, 117);
+            this.cb16.Name = "cb16";
+            this.cb16.Size = new System.Drawing.Size(15, 14);
+            this.cb16.TabIndex = 18;
+            this.cb16.UseVisualStyleBackColor = true;
+            this.cb16.Visible = false;
+            // 
+            // cb15
+            // 
+            this.cb15.AutoSize = true;
+            this.cb15.Location = new System.Drawing.Point(583, 117);
+            this.cb15.Name = "cb15";
+            this.cb15.Size = new System.Drawing.Size(15, 14);
+            this.cb15.TabIndex = 19;
+            this.cb15.UseVisualStyleBackColor = true;
+            this.cb15.Visible = false;
+            // 
+            // cb14
+            // 
+            this.cb14.AutoSize = true;
+            this.cb14.Location = new System.Drawing.Point(651, 117);
+            this.cb14.Name = "cb14";
+            this.cb14.Size = new System.Drawing.Size(15, 14);
+            this.cb14.TabIndex = 20;
+            this.cb14.UseVisualStyleBackColor = true;
+            this.cb14.Visible = false;
+            // 
+            // cb13
+            // 
+            this.cb13.AutoSize = true;
+            this.cb13.Location = new System.Drawing.Point(734, 117);
+            this.cb13.Name = "cb13";
+            this.cb13.Size = new System.Drawing.Size(15, 14);
+            this.cb13.TabIndex = 21;
+            this.cb13.UseVisualStyleBackColor = true;
+            this.cb13.Visible = false;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(895, 153);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 67;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Reserva
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1051, 924);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtDominio);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.BtCancelar);
@@ -590,12 +603,13 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.GbVehiculo);
             this.Name = "Reserva";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reserva";
             this.GbVehiculo.ResumeLayout(false);
             this.GbVehiculo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbCocheras)).EndInit();
             this.GbReserva.ResumeLayout(false);
+            this.GbReserva.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -613,28 +627,6 @@
         private System.Windows.Forms.GroupBox GbVehiculo;
         private System.Windows.Forms.PictureBox PbCocheras;
         private System.Windows.Forms.GroupBox GbReserva;
-        private System.Windows.Forms.Button BtRes21;
-        private System.Windows.Forms.Button BtRes13;
-        private System.Windows.Forms.Button BtRes1;
-        private System.Windows.Forms.Button BtRes14;
-        private System.Windows.Forms.Button BtRes2;
-        private System.Windows.Forms.Button BtRes15;
-        private System.Windows.Forms.Button BtRes3;
-        private System.Windows.Forms.Button BtRes16;
-        private System.Windows.Forms.Button BtRes4;
-        private System.Windows.Forms.Button BtRes17;
-        private System.Windows.Forms.Button BtRes5;
-        private System.Windows.Forms.Button BtRes18;
-        private System.Windows.Forms.Button BtRes6;
-        private System.Windows.Forms.Button BtRes19;
-        private System.Windows.Forms.Button BtRes7;
-        private System.Windows.Forms.Button BtRes20;
-        private System.Windows.Forms.Button BtRes8;
-        private System.Windows.Forms.Button BtRes9;
-        private System.Windows.Forms.Button BtRes22;
-        private System.Windows.Forms.Button BtRes10;
-        private System.Windows.Forms.Button BtRes12;
-        private System.Windows.Forms.Button BtRes11;
         private System.Windows.Forms.ComboBox CbPlan;
         private System.Windows.Forms.Label LblPlan;
         private System.Windows.Forms.TextBox txtDomicilio;
@@ -648,6 +640,29 @@
         public System.Windows.Forms.RadioButton RbMoto;
         public System.Windows.Forms.RadioButton RbAuto;
         public System.Windows.Forms.TextBox txtDominio;
+        private System.Windows.Forms.CheckBox cb13;
+        private System.Windows.Forms.CheckBox cb14;
+        private System.Windows.Forms.CheckBox cb15;
+        private System.Windows.Forms.CheckBox cb16;
+        private System.Windows.Forms.CheckBox cb17;
+        private System.Windows.Forms.CheckBox cb18;
+        private System.Windows.Forms.CheckBox cb19;
+        private System.Windows.Forms.CheckBox cb20;
+        private System.Windows.Forms.CheckBox cb21;
+        private System.Windows.Forms.CheckBox cb22;
+        private System.Windows.Forms.CheckBox cb12;
+        private System.Windows.Forms.CheckBox cb11;
+        private System.Windows.Forms.CheckBox cb10;
+        private System.Windows.Forms.CheckBox cb9;
+        private System.Windows.Forms.CheckBox cb8;
+        private System.Windows.Forms.CheckBox cb7;
+        private System.Windows.Forms.CheckBox cb6;
+        private System.Windows.Forms.CheckBox cb5;
+        private System.Windows.Forms.CheckBox cb4;
+        private System.Windows.Forms.CheckBox cb3;
+        private System.Windows.Forms.CheckBox cb2;
+        private System.Windows.Forms.CheckBox cb1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

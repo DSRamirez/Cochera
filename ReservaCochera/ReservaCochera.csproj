@@ -52,6 +52,7 @@
     <Compile Include="ConfirmacionReserva.Designer.cs">
       <DependentUpon>ConfirmacionReserva.cs</DependentUpon>
     </Compile>
+    <Compile Include="DAL.cs" />
     <Compile Include="Reserva.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +88,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\USQLCSharpProject1\Clases.csproj">
+      <Project>{62cb5165-90e0-432a-982d-5fcce11f3231}</Project>
+      <Name>Clases</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

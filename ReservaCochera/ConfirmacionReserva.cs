@@ -17,5 +17,30 @@ namespace ReservaCochera
             InitializeComponent();
         }
 
+        private void BtConfirmar_Click(object sender, EventArgs e)
+        {
+            ConfirmarCochera();
+            MessageBox.Show("Reserva generada correctamente");
+            this.Close();
+
+        }
+        private void btEditar_Click_1(object sender, EventArgs e)
+        {
+            Reserva reserva = new Reserva();
+            this.Close();
+            reserva.Show();
+        }
+
+        private void BtCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        #region Metodos
+        private void ConfirmarCochera()
+        {
+            Reserva reserva = new Reserva();           
+        }
+        #endregion
     }
 }
