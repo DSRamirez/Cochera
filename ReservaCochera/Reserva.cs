@@ -20,6 +20,7 @@ namespace ReservaCochera
 
         #region Eventos
 
+        int Numero = 0;
         private void BtCancelar_Click(object sender, EventArgs e)
         {
             Close();
@@ -30,18 +31,23 @@ namespace ReservaCochera
             ConfirmacionReserva Confirm = new ConfirmacionReserva();
             Confirm.Show();
 
-            Confirm.lblDetalle.Text =
-                "Reserva a nombre de: " + txtTitular.Text +
-                "\nDNI: " + txtDni.Text +
-                "\nDomicilio:" + txtDomicilio.Text +
-                "\nTeléfono: " + txtTelefono.Text +
-                "\nE-Mail: " + txtEmail.Text +
-                "\nTipo de Plan: " + CbPlan.Text +
-                "\nFecha de la reserva desde: " + McFechaReserva.SelectionStart.ToShortDateString() + " hasta el día: " + McFechaReserva.SelectionEnd.ToShortDateString() +
-                "\nDominio: " + txtDominio.Text; 
+            LblTitular.Text = txtTitular.Text;
+            LblDNI.Text = txtDni.Text;
+            LblDomicilio.Text = txtDomicilio.Text;
+            LblTelefono.Text = txtTelefono.Text;
+            Lblemail.Text = txtEmail.Text;
+            
+            //LblVehiculo
+            //LblDominio    
+            //LblMarca
+            //LblModelo
+            LblFechaReserva.Text = McFechaReserva.SelectionStart.ToShortDateString() + " hasta el día: " + McFechaReserva.SelectionEnd.ToShortDateString();
+            LblPlan.Text = CbPlan.Text;
+            //LblCochera
         }
 
         #endregion
+
         #region Seleccion Vehiculo
         private void RbAuto_CheckedChanged(object sender, EventArgs e)
         {
@@ -99,13 +105,118 @@ namespace ReservaCochera
 
         #endregion
 
-        #region Metodos privados
+        #region Eventos CheckBox
+
+        private void cb1_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 1;
+        }
+
+        private void cb2_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 2;
+        }
+
+        private void cb3_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 3;
+        }
+
+        private void cb4_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 4;
+        }
+
+        private void cb5_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 5;
+        }
+
+        private void cb6_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 6;
+        }
+
+        private void cb7_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 7;
+        }
+
+        private void cb8_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 8;
+        }
+
+        private void cb9_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 9;
+        }
+
+        private void cb10_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 10;
+        }
+
+        private void cb11_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 11;
+        }
+
+        private void cb12_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 12;
+        }
+
+        private void cb13_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 13;
+        }
+
+        private void cb14_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 14;
+        }
+
+        private void cb15_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 15;
+        }
+
+        private void cb16_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 16;
+        }
+
+        private void cb17_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 17;
+        }
+
+        private void cb18_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 18;
+        }
+
+        private void cb19_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 19;
+        }
+
+        private void cb20_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 20;
+        }
+
+        private void cb21_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 21;
+        }
+
+        private void cb22_CheckedChanged(object sender, EventArgs e)
+        {
+            Numero = 22;
+        }
 
         #endregion
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            //int Id = Llamar al metodo GetId("Tabla")
-        }
     }
 }

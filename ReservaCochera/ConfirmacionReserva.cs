@@ -12,6 +12,7 @@ namespace ReservaCochera
 {
     public partial class ConfirmacionReserva : Form
     {
+
         public ConfirmacionReserva()
         {
             InitializeComponent();
@@ -39,7 +40,20 @@ namespace ReservaCochera
         #region Metodos
         private void ConfirmarCochera()
         {
-            Reserva reserva = new Reserva();           
+            DAL dAL = new DAL();
+            dAL.InsertPlan();
+            dAL.InsertVehiculo();
+            dAL.InsertCochera();
+            dAL.InsertCliente();
+
+            Plan plan = new Plan();
+            Vehiculo vehiculo = new Vehiculo();
+            Cochera cochera = new Cochera();
+            Cliente cliente = new Cliente();
+
+           // cliente.Nombre = ;
+
+            MessageBox.Show("La reserva fue generada con éxito");
         }
         #endregion
     }

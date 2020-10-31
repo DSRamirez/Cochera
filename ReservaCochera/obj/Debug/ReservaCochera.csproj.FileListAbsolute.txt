@@ -20,3 +20,6 @@ C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\obj\Debug\Reserva
 C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\obj\Debug\ReservaCochera.csproj.CoreCompileInputs.cache
 C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\obj\Debug\ReservaCochera.exe
 C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\obj\Debug\ReservaCochera.pdb
+C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\bin\Debug\USQLCSharpProject1.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\bin\Debug\USQLCSharpProject1.pdb
+C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\obj\Debug\ReservaCochera.csproj.CopyComplete
