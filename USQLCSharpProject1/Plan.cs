@@ -9,9 +9,18 @@ namespace ReservaCochera
 {
     public class Plan
     {
-        public int ID_Plan { get; set; }
-        public string TipoPlan { get; set; }
-        public SqlDateTime FechaIngreso { get; set; }
-        public SqlDateTime FechaEgreso { get; set; }
+        private string tipoPlan;
+        private string fechaIngreso;
+        private string fechaEgreso;
+        public string TipoPlan { get => tipoPlan; set => tipoPlan = value; }
+        public string FechaIngreso { get => fechaIngreso; set => fechaIngreso = value; }
+        public string FechaEgreso { get => fechaEgreso; set => fechaEgreso = value; }
+
+        public void planes(string tipop, string fing, string fegr)
+        {
+            tipoPlan = tipop;
+            fechaIngreso = fing;
+            fechaEgreso = fegr;
+        }
     }
 }

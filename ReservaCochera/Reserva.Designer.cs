@@ -38,8 +38,6 @@
             this.Lblemail = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.GbVehiculo = new System.Windows.Forms.GroupBox();
-            this.RbMoto = new System.Windows.Forms.RadioButton();
-            this.RbAuto = new System.Windows.Forms.RadioButton();
             this.PbCocheras = new System.Windows.Forms.PictureBox();
             this.GbReserva = new System.Windows.Forms.GroupBox();
             this.cb13 = new System.Windows.Forms.CheckBox();
@@ -75,10 +73,11 @@
             this.BtCancelar = new System.Windows.Forms.Button();
             this.txtDominio = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtMarca = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtModelo = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.CbVehiculo = new System.Windows.Forms.ComboBox();
             this.GbVehiculo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbCocheras)).BeginInit();
             this.GbReserva.SuspendLayout();
@@ -100,9 +99,9 @@
             this.LblTelefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTelefono.Location = new System.Drawing.Point(23, 159);
             this.LblTelefono.Name = "LblTelefono";
-            this.LblTelefono.Size = new System.Drawing.Size(79, 20);
+            this.LblTelefono.Size = new System.Drawing.Size(83, 20);
             this.LblTelefono.TabIndex = 51;
-            this.LblTelefono.Text = "Teléfono: ";
+            this.LblTelefono.Text = "Teléfono:  ";
             // 
             // txtTelefono
             // 
@@ -137,9 +136,9 @@
             this.LblTitular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitular.Location = new System.Drawing.Point(23, 54);
             this.LblTitular.Name = "LblTitular";
-            this.LblTitular.Size = new System.Drawing.Size(56, 20);
+            this.LblTitular.Size = new System.Drawing.Size(60, 20);
             this.LblTitular.TabIndex = 49;
-            this.LblTitular.Text = "Titular:";
+            this.LblTitular.Text = "Titular: ";
             // 
             // Lblemail
             // 
@@ -147,9 +146,9 @@
             this.Lblemail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lblemail.Location = new System.Drawing.Point(23, 200);
             this.Lblemail.Name = "Lblemail";
-            this.Lblemail.Size = new System.Drawing.Size(57, 20);
+            this.Lblemail.Size = new System.Drawing.Size(61, 20);
             this.Lblemail.TabIndex = 46;
-            this.Lblemail.Text = "E-Mail:";
+            this.Lblemail.Text = "E-Mail: ";
             // 
             // label2
             // 
@@ -163,36 +162,14 @@
             // 
             // GbVehiculo
             // 
-            this.GbVehiculo.Controls.Add(this.RbMoto);
-            this.GbVehiculo.Controls.Add(this.RbAuto);
+            this.GbVehiculo.Controls.Add(this.CbVehiculo);
             this.GbVehiculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.GbVehiculo.Location = new System.Drawing.Point(428, 48);
+            this.GbVehiculo.Location = new System.Drawing.Point(426, 48);
             this.GbVehiculo.Name = "GbVehiculo";
-            this.GbVehiculo.Size = new System.Drawing.Size(174, 93);
+            this.GbVehiculo.Size = new System.Drawing.Size(190, 80);
             this.GbVehiculo.TabIndex = 44;
             this.GbVehiculo.TabStop = false;
             this.GbVehiculo.Text = "Vehículo";
-            // 
-            // RbMoto
-            // 
-            this.RbMoto.AutoSize = true;
-            this.RbMoto.Location = new System.Drawing.Point(6, 65);
-            this.RbMoto.Name = "RbMoto";
-            this.RbMoto.Size = new System.Drawing.Size(63, 24);
-            this.RbMoto.TabIndex = 1;
-            this.RbMoto.Text = "Moto";
-            this.RbMoto.UseVisualStyleBackColor = true;
-            // 
-            // RbAuto
-            // 
-            this.RbAuto.AutoSize = true;
-            this.RbAuto.Location = new System.Drawing.Point(6, 34);
-            this.RbAuto.Name = "RbAuto";
-            this.RbAuto.Size = new System.Drawing.Size(61, 24);
-            this.RbAuto.TabIndex = 0;
-            this.RbAuto.Text = "Auto";
-            this.RbAuto.UseVisualStyleBackColor = true;
-            this.RbAuto.CheckedChanged += new System.EventHandler(this.RbAuto_CheckedChanged);
             // 
             // PbCocheras
             // 
@@ -243,7 +220,6 @@
             this.cb13.TabIndex = 21;
             this.cb13.Text = "13";
             this.cb13.UseVisualStyleBackColor = true;
-            this.cb13.Visible = false;
             this.cb13.CheckedChanged += new System.EventHandler(this.cb13_CheckedChanged);
             // 
             // cb14
@@ -255,7 +231,6 @@
             this.cb14.TabIndex = 20;
             this.cb14.Text = "14";
             this.cb14.UseVisualStyleBackColor = true;
-            this.cb14.Visible = false;
             this.cb14.CheckedChanged += new System.EventHandler(this.cb14_CheckedChanged);
             // 
             // cb15
@@ -267,7 +242,6 @@
             this.cb15.TabIndex = 19;
             this.cb15.Text = "15";
             this.cb15.UseVisualStyleBackColor = true;
-            this.cb15.Visible = false;
             this.cb15.CheckedChanged += new System.EventHandler(this.cb15_CheckedChanged);
             // 
             // cb16
@@ -279,7 +253,6 @@
             this.cb16.TabIndex = 18;
             this.cb16.Text = "16";
             this.cb16.UseVisualStyleBackColor = true;
-            this.cb16.Visible = false;
             this.cb16.CheckedChanged += new System.EventHandler(this.cb16_CheckedChanged);
             // 
             // cb17
@@ -291,7 +264,6 @@
             this.cb17.TabIndex = 17;
             this.cb17.Text = "17";
             this.cb17.UseVisualStyleBackColor = true;
-            this.cb17.Visible = false;
             this.cb17.CheckedChanged += new System.EventHandler(this.cb17_CheckedChanged);
             // 
             // cb18
@@ -303,7 +275,6 @@
             this.cb18.TabIndex = 16;
             this.cb18.Text = "18";
             this.cb18.UseVisualStyleBackColor = true;
-            this.cb18.Visible = false;
             this.cb18.CheckedChanged += new System.EventHandler(this.cb18_CheckedChanged);
             // 
             // cb19
@@ -315,7 +286,6 @@
             this.cb19.TabIndex = 15;
             this.cb19.Text = "19";
             this.cb19.UseVisualStyleBackColor = true;
-            this.cb19.Visible = false;
             this.cb19.CheckedChanged += new System.EventHandler(this.cb19_CheckedChanged);
             // 
             // cb20
@@ -327,7 +297,6 @@
             this.cb20.TabIndex = 14;
             this.cb20.Text = "20";
             this.cb20.UseVisualStyleBackColor = true;
-            this.cb20.Visible = false;
             this.cb20.CheckedChanged += new System.EventHandler(this.cb20_CheckedChanged);
             // 
             // cb21
@@ -339,7 +308,6 @@
             this.cb21.TabIndex = 13;
             this.cb21.Text = "21";
             this.cb21.UseVisualStyleBackColor = true;
-            this.cb21.Visible = false;
             this.cb21.CheckedChanged += new System.EventHandler(this.cb21_CheckedChanged);
             // 
             // cb22
@@ -351,7 +319,6 @@
             this.cb22.TabIndex = 12;
             this.cb22.Text = "22";
             this.cb22.UseVisualStyleBackColor = true;
-            this.cb22.Visible = false;
             this.cb22.CheckedChanged += new System.EventHandler(this.cb22_CheckedChanged);
             // 
             // cb12
@@ -363,7 +330,6 @@
             this.cb12.TabIndex = 11;
             this.cb12.Text = "12";
             this.cb12.UseVisualStyleBackColor = true;
-            this.cb12.Visible = false;
             this.cb12.CheckedChanged += new System.EventHandler(this.cb12_CheckedChanged);
             // 
             // cb11
@@ -375,7 +341,6 @@
             this.cb11.TabIndex = 10;
             this.cb11.Text = "11";
             this.cb11.UseVisualStyleBackColor = true;
-            this.cb11.Visible = false;
             this.cb11.CheckedChanged += new System.EventHandler(this.cb11_CheckedChanged);
             // 
             // cb10
@@ -387,7 +352,6 @@
             this.cb10.TabIndex = 9;
             this.cb10.Text = "10";
             this.cb10.UseVisualStyleBackColor = true;
-            this.cb10.Visible = false;
             this.cb10.CheckedChanged += new System.EventHandler(this.cb10_CheckedChanged);
             // 
             // cb9
@@ -399,7 +363,6 @@
             this.cb9.TabIndex = 8;
             this.cb9.Text = "9";
             this.cb9.UseVisualStyleBackColor = true;
-            this.cb9.Visible = false;
             this.cb9.CheckedChanged += new System.EventHandler(this.cb9_CheckedChanged);
             // 
             // cb8
@@ -411,7 +374,6 @@
             this.cb8.TabIndex = 7;
             this.cb8.Text = "8";
             this.cb8.UseVisualStyleBackColor = true;
-            this.cb8.Visible = false;
             this.cb8.CheckedChanged += new System.EventHandler(this.cb8_CheckedChanged);
             // 
             // cb7
@@ -423,7 +385,6 @@
             this.cb7.TabIndex = 6;
             this.cb7.Text = "7";
             this.cb7.UseVisualStyleBackColor = true;
-            this.cb7.Visible = false;
             this.cb7.CheckedChanged += new System.EventHandler(this.cb7_CheckedChanged);
             // 
             // cb6
@@ -435,7 +396,6 @@
             this.cb6.TabIndex = 5;
             this.cb6.Text = "6";
             this.cb6.UseVisualStyleBackColor = true;
-            this.cb6.Visible = false;
             this.cb6.CheckedChanged += new System.EventHandler(this.cb6_CheckedChanged);
             // 
             // cb5
@@ -447,7 +407,6 @@
             this.cb5.TabIndex = 4;
             this.cb5.Text = "5";
             this.cb5.UseVisualStyleBackColor = true;
-            this.cb5.Visible = false;
             this.cb5.CheckedChanged += new System.EventHandler(this.cb5_CheckedChanged);
             // 
             // cb4
@@ -459,7 +418,6 @@
             this.cb4.TabIndex = 3;
             this.cb4.Text = "4";
             this.cb4.UseVisualStyleBackColor = true;
-            this.cb4.Visible = false;
             this.cb4.CheckedChanged += new System.EventHandler(this.cb4_CheckedChanged);
             // 
             // cb3
@@ -471,7 +429,6 @@
             this.cb3.TabIndex = 2;
             this.cb3.Text = "3";
             this.cb3.UseVisualStyleBackColor = true;
-            this.cb3.Visible = false;
             this.cb3.CheckedChanged += new System.EventHandler(this.cb3_CheckedChanged);
             // 
             // cb2
@@ -483,7 +440,6 @@
             this.cb2.TabIndex = 1;
             this.cb2.Text = "2";
             this.cb2.UseVisualStyleBackColor = true;
-            this.cb2.Visible = false;
             this.cb2.CheckedChanged += new System.EventHandler(this.cb2_CheckedChanged);
             // 
             // cb1
@@ -495,7 +451,6 @@
             this.cb1.TabIndex = 0;
             this.cb1.Text = "1";
             this.cb1.UseVisualStyleBackColor = true;
-            this.cb1.Visible = false;
             this.cb1.CheckedChanged += new System.EventHandler(this.cb1_CheckedChanged);
             // 
             // CbPlan
@@ -517,9 +472,9 @@
             this.LblPlan.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPlan.Location = new System.Drawing.Point(23, 242);
             this.LblPlan.Name = "LblPlan";
-            this.LblPlan.Size = new System.Drawing.Size(44, 20);
+            this.LblPlan.Size = new System.Drawing.Size(48, 20);
             this.LblPlan.TabIndex = 57;
-            this.LblPlan.Text = "Plan:";
+            this.LblPlan.Text = "Plan: ";
             // 
             // txtDomicilio
             // 
@@ -536,9 +491,9 @@
             this.LblDomicilio.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblDomicilio.Location = new System.Drawing.Point(23, 121);
             this.LblDomicilio.Name = "LblDomicilio";
-            this.LblDomicilio.Size = new System.Drawing.Size(76, 20);
+            this.LblDomicilio.Size = new System.Drawing.Size(80, 20);
             this.LblDomicilio.TabIndex = 59;
-            this.LblDomicilio.Text = "Domicilio:";
+            this.LblDomicilio.Text = "Domicilio: ";
             // 
             // McFechaReserva
             // 
@@ -562,9 +517,9 @@
             this.LblDNI.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblDNI.Location = new System.Drawing.Point(23, 89);
             this.LblDNI.Name = "LblDNI";
-            this.LblDNI.Size = new System.Drawing.Size(41, 20);
+            this.LblDNI.Size = new System.Drawing.Size(45, 20);
             this.LblDNI.TabIndex = 62;
-            this.LblDNI.Text = "DNI:";
+            this.LblDNI.Text = "DNI: ";
             // 
             // BtConfirmar
             // 
@@ -607,18 +562,18 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(423, 237);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 20);
+            this.label1.Size = new System.Drawing.Size(75, 20);
             this.label1.TabIndex = 66;
-            this.label1.Text = "Dominio:";
+            this.label1.Text = "Dominio: ";
             // 
-            // textBox1
+            // txtMarca
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(514, 153);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(141, 26);
-            this.textBox1.TabIndex = 68;
-            this.textBox1.Text = "Audi";
+            this.txtMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMarca.Location = new System.Drawing.Point(514, 153);
+            this.txtMarca.Name = "txtMarca";
+            this.txtMarca.Size = new System.Drawing.Size(141, 26);
+            this.txtMarca.TabIndex = 68;
+            this.txtMarca.Text = "Audi";
             // 
             // label3
             // 
@@ -626,18 +581,18 @@
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(423, 159);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 20);
+            this.label3.Size = new System.Drawing.Size(61, 20);
             this.label3.TabIndex = 67;
-            this.label3.Text = "Marca:";
+            this.label3.Text = "Marca: ";
             // 
-            // textBox2
+            // txtModelo
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(514, 194);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(141, 26);
-            this.textBox2.TabIndex = 70;
-            this.textBox2.Text = "R8";
+            this.txtModelo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtModelo.Location = new System.Drawing.Point(514, 194);
+            this.txtModelo.Name = "txtModelo";
+            this.txtModelo.Size = new System.Drawing.Size(141, 26);
+            this.txtModelo.TabIndex = 70;
+            this.txtModelo.Text = "R8";
             // 
             // label4
             // 
@@ -645,18 +600,30 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(422, 197);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(65, 20);
+            this.label4.Size = new System.Drawing.Size(69, 20);
             this.label4.TabIndex = 69;
-            this.label4.Text = "Modelo:";
+            this.label4.Text = "Modelo: ";
+            // 
+            // CbVehiculo
+            // 
+            this.CbVehiculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CbVehiculo.FormattingEnabled = true;
+            this.CbVehiculo.Items.AddRange(new object[] {
+            "Auto",
+            "Moto"});
+            this.CbVehiculo.Location = new System.Drawing.Point(8, 32);
+            this.CbVehiculo.Name = "CbVehiculo";
+            this.CbVehiculo.Size = new System.Drawing.Size(157, 28);
+            this.CbVehiculo.TabIndex = 57;
             // 
             // Reserva
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1051, 924);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtModelo);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtMarca);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtDominio);
             this.Controls.Add(this.label1);
@@ -684,7 +651,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reserva";
             this.GbVehiculo.ResumeLayout(false);
-            this.GbVehiculo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbCocheras)).EndInit();
             this.GbReserva.ResumeLayout(false);
             this.GbReserva.PerformLayout();
@@ -709,8 +675,6 @@
         private System.Windows.Forms.Button BtCancelar;
         private System.Windows.Forms.Label label1;
         public System.Windows.Forms.MonthCalendar McFechaReserva;
-        public System.Windows.Forms.RadioButton RbMoto;
-        public System.Windows.Forms.RadioButton RbAuto;
         public System.Windows.Forms.TextBox txtDominio;
         public System.Windows.Forms.TextBox txtTitular;
         public System.Windows.Forms.TextBox txtTelefono;
@@ -740,10 +704,11 @@
         public System.Windows.Forms.CheckBox cb3;
         public System.Windows.Forms.CheckBox cb2;
         public System.Windows.Forms.CheckBox cb1;
-        public System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label3;
-        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox txtMarca;
+        public System.Windows.Forms.TextBox txtModelo;
         private System.Windows.Forms.Label label4;
+        public System.Windows.Forms.Label label3;
+        public System.Windows.Forms.ComboBox CbVehiculo;
     }
 }
 

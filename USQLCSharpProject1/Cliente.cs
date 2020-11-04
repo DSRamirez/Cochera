@@ -8,13 +8,25 @@ namespace ReservaCochera
 {
     public class Cliente
     {
-        public int ID_Cliente { get; set; }
-        public string Nombre { get; set; }
-        public string Domicilio { get; set; }
-        public string Telefono { get; set; }
-        public string Email { get; set; }
-        public string DNI { get; set; }
-        public int ID_Vehiculo { get; set; }
-        public int ID_Cochera { get; set; }
+        private string nombre;
+        private string domicilio;
+        private string telefono;
+        private string email;
+        private string dNI;
+
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Domicilio { get => domicilio; set => domicilio = value; }
+        public string Telefono { get => telefono; set => telefono = value; }
+        public string Email { get => email; set => email = value; }
+        public string DNI { get => dNI; set => dNI = value; }
+
+        public void Clientes(string nom, string dom, string tel, string mail, string dni)
+        {
+            nombre = nom;
+            domicilio = dom;
+            telefono = tel;
+            email = mail;
+            dNI = dni;
+        }
     }
 }

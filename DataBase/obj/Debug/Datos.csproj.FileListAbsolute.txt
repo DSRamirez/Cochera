@@ -1,0 +1,12 @@
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\bin\Debug\DataBase.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\bin\Debug\DataBase.pdb
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\bin\Debug\USQLCSharpProject1.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\bin\Debug\USQLCSharpProject1.pdb
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\obj\Debug\DataBase.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\DataBase\obj\Debug\DataBase.pdb

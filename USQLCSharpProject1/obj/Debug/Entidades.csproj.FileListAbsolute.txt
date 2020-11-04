@@ -1,0 +1,10 @@
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\bin\Debug\USQLCSharpProject1.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\bin\Debug\USQLCSharpProject1.pdb
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\obj\Debug\Entidades.csproj.CopyComplete
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\obj\Debug\USQLCSharpProject1.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\USQLCSharpProject1\obj\Debug\USQLCSharpProject1.pdb

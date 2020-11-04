@@ -8,8 +8,13 @@ namespace ReservaCochera
 {
     public class Cochera
     {
-        public int ID_Cochera { get; set; }
-        public int ID_Vehiculo { get; set; }
-        public int ID_Plan { get; set; }
+        private string numeroCochera;
+
+        public string NumeroCochera { get => numeroCochera; set => numeroCochera = value; }
+
+        public void cocheras(string numCochera)
+        {
+            numeroCochera = numCochera;
+        }
     }
 }

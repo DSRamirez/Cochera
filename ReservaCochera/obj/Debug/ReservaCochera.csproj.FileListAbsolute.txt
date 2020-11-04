@@ -23,3 +23,7 @@ C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\obj\Debug\Reserva
 C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\bin\Debug\USQLCSharpProject1.dll
 C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\bin\Debug\USQLCSharpProject1.pdb
 C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\obj\Debug\ReservaCochera.csproj.CopyComplete
+C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\bin\Debug\DataBase.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\bin\Debug\Negocios.dll
+C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\bin\Debug\DataBase.pdb
+C:\Users\Administrador\Documents\GitHub\Cochera\ReservaCochera\bin\Debug\Negocios.pdb
