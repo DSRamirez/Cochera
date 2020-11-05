@@ -38,6 +38,7 @@
             this.Lblemail = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.GbVehiculo = new System.Windows.Forms.GroupBox();
+            this.CbVehiculo = new System.Windows.Forms.ComboBox();
             this.PbCocheras = new System.Windows.Forms.PictureBox();
             this.GbReserva = new System.Windows.Forms.GroupBox();
             this.cb13 = new System.Windows.Forms.CheckBox();
@@ -77,7 +78,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtModelo = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.CbVehiculo = new System.Windows.Forms.ComboBox();
             this.GbVehiculo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PbCocheras)).BeginInit();
             this.GbReserva.SuspendLayout();
@@ -109,7 +109,7 @@
             this.txtTelefono.Location = new System.Drawing.Point(114, 153);
             this.txtTelefono.Name = "txtTelefono";
             this.txtTelefono.Size = new System.Drawing.Size(289, 26);
-            this.txtTelefono.TabIndex = 50;
+            this.txtTelefono.TabIndex = 4;
             this.txtTelefono.Text = "3515228573";
             // 
             // txtEmail
@@ -118,7 +118,7 @@
             this.txtEmail.Location = new System.Drawing.Point(114, 194);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(289, 26);
-            this.txtEmail.TabIndex = 48;
+            this.txtEmail.TabIndex = 5;
             this.txtEmail.Text = "daianasramirez91@gmail.com";
             // 
             // txtTitular
@@ -127,7 +127,7 @@
             this.txtTitular.Location = new System.Drawing.Point(114, 48);
             this.txtTitular.Name = "txtTitular";
             this.txtTitular.Size = new System.Drawing.Size(289, 26);
-            this.txtTitular.TabIndex = 47;
+            this.txtTitular.TabIndex = 1;
             this.txtTitular.Text = "Daiana Ramirez";
             // 
             // LblTitular
@@ -170,6 +170,18 @@
             this.GbVehiculo.TabIndex = 44;
             this.GbVehiculo.TabStop = false;
             this.GbVehiculo.Text = "Vehículo";
+            // 
+            // CbVehiculo
+            // 
+            this.CbVehiculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CbVehiculo.FormattingEnabled = true;
+            this.CbVehiculo.Items.AddRange(new object[] {
+            "Auto",
+            "Moto"});
+            this.CbVehiculo.Location = new System.Drawing.Point(8, 32);
+            this.CbVehiculo.Name = "CbVehiculo";
+            this.CbVehiculo.Size = new System.Drawing.Size(157, 28);
+            this.CbVehiculo.TabIndex = 7;
             // 
             // PbCocheras
             // 
@@ -464,7 +476,7 @@
             this.CbPlan.Location = new System.Drawing.Point(114, 234);
             this.CbPlan.Name = "CbPlan";
             this.CbPlan.Size = new System.Drawing.Size(289, 28);
-            this.CbPlan.TabIndex = 56;
+            this.CbPlan.TabIndex = 6;
             // 
             // LblPlan
             // 
@@ -482,7 +494,7 @@
             this.txtDomicilio.Location = new System.Drawing.Point(114, 115);
             this.txtDomicilio.Name = "txtDomicilio";
             this.txtDomicilio.Size = new System.Drawing.Size(289, 26);
-            this.txtDomicilio.TabIndex = 58;
+            this.txtDomicilio.TabIndex = 3;
             this.txtDomicilio.Text = "Roman de chaves 693";
             // 
             // LblDomicilio
@@ -508,7 +520,7 @@
             this.txtDni.Location = new System.Drawing.Point(114, 83);
             this.txtDni.Name = "txtDni";
             this.txtDni.Size = new System.Drawing.Size(289, 26);
-            this.txtDni.TabIndex = 61;
+            this.txtDni.TabIndex = 2;
             this.txtDni.Text = "35577886";
             // 
             // LblDNI
@@ -553,7 +565,7 @@
             this.txtDominio.Location = new System.Drawing.Point(514, 234);
             this.txtDominio.Name = "txtDominio";
             this.txtDominio.Size = new System.Drawing.Size(141, 26);
-            this.txtDominio.TabIndex = 65;
+            this.txtDominio.TabIndex = 10;
             this.txtDominio.Text = "AAA123";
             // 
             // label1
@@ -572,7 +584,7 @@
             this.txtMarca.Location = new System.Drawing.Point(514, 153);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(141, 26);
-            this.txtMarca.TabIndex = 68;
+            this.txtMarca.TabIndex = 8;
             this.txtMarca.Text = "Audi";
             // 
             // label3
@@ -591,7 +603,7 @@
             this.txtModelo.Location = new System.Drawing.Point(514, 194);
             this.txtModelo.Name = "txtModelo";
             this.txtModelo.Size = new System.Drawing.Size(141, 26);
-            this.txtModelo.TabIndex = 70;
+            this.txtModelo.TabIndex = 9;
             this.txtModelo.Text = "R8";
             // 
             // label4
@@ -603,18 +615,6 @@
             this.label4.Size = new System.Drawing.Size(69, 20);
             this.label4.TabIndex = 69;
             this.label4.Text = "Modelo: ";
-            // 
-            // CbVehiculo
-            // 
-            this.CbVehiculo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CbVehiculo.FormattingEnabled = true;
-            this.CbVehiculo.Items.AddRange(new object[] {
-            "Auto",
-            "Moto"});
-            this.CbVehiculo.Location = new System.Drawing.Point(8, 32);
-            this.CbVehiculo.Name = "CbVehiculo";
-            this.CbVehiculo.Size = new System.Drawing.Size(157, 28);
-            this.CbVehiculo.TabIndex = 57;
             // 
             // Reserva
             // 

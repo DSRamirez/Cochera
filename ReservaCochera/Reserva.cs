@@ -76,7 +76,7 @@ namespace ReservaCochera
             Numero = 1;
             if (cb1.Checked = true)
             {
-                cb1.Visible = false;
+                cb1.Enabled = true;
             }
         }
 
