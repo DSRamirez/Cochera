@@ -14,7 +14,7 @@ namespace Negocios
 
         public int AltaPlan (Plan objPlan)
         {
-            return objDP.AltaPlan (objPlan);
+            return objDP.AltaPlan (objPlan); //ref 
         }
     }
 }

@@ -12,9 +12,9 @@ namespace Negocios
     {
         DatosVehiculo objDV = new DatosVehiculo();
 
-        public int AltaVehiculo(Vehiculo objVehiculo)
+        public int AltaVehiculo(Vehiculo objVehiculo) //int idcliente
         {
-            return objDV.AltaVehiculo(objVehiculo);
+            return objDV.AltaVehiculo(objVehiculo); //ref - idcliente
         }
 
     }

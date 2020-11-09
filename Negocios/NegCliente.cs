@@ -14,7 +14,7 @@ namespace Negocios
 
         public int AltaCliente(Cliente objCliente)
         {
-            return objDCl.AltaCliente(objCliente);
+            return objDCl.AltaCliente(objCliente); // ref 
         }
     }
 }

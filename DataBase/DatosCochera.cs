@@ -11,7 +11,7 @@ namespace DataBase
     public class DatosCochera : DatosConexionDB
     {
         int resultado = -1;
-        public int AltaCochera(Cochera objCochera)
+        public int AltaCochera(Cochera objCochera) // ref y int idcliente, int idplan, int idvehiculo
         {
             try
             {

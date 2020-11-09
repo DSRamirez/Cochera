@@ -45,13 +45,24 @@
             this.lblMarca = new System.Windows.Forms.Label();
             this.LblModelo = new System.Windows.Forms.Label();
             this.lblDominio = new System.Windows.Forms.Label();
+            this.BarraTitulo = new System.Windows.Forms.Panel();
+            this.BtCerrar = new System.Windows.Forms.PictureBox();
+            this.BtMaximizar = new System.Windows.Forms.PictureBox();
+            this.BtMinimizar = new System.Windows.Forms.PictureBox();
+            this.BtRestaurar = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.BarraTitulo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtCerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtMaximizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtMinimizar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtRestaurar)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(305, 9);
+            this.label1.Location = new System.Drawing.Point(322, 7);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(288, 48);
             this.label1.TabIndex = 0;
@@ -216,11 +227,85 @@
             this.lblDominio.TabIndex = 78;
             this.lblDominio.Text = "Dominio: ";
             // 
+            // BarraTitulo
+            // 
+            this.BarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(85)))), ((int)(((byte)(200)))));
+            this.BarraTitulo.Controls.Add(this.BtRestaurar);
+            this.BarraTitulo.Controls.Add(this.BtMinimizar);
+            this.BarraTitulo.Controls.Add(this.BtMaximizar);
+            this.BarraTitulo.Controls.Add(this.BtCerrar);
+            this.BarraTitulo.Controls.Add(this.label1);
+            this.BarraTitulo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
+            this.BarraTitulo.Name = "BarraTitulo";
+            this.BarraTitulo.Size = new System.Drawing.Size(1000, 35);
+            this.BarraTitulo.TabIndex = 82;
+            // 
+            // BtCerrar
+            // 
+            this.BtCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtCerrar.Image")));
+            this.BtCerrar.Location = new System.Drawing.Point(963, 7);
+            this.BtCerrar.Name = "BtCerrar";
+            this.BtCerrar.Size = new System.Drawing.Size(25, 25);
+            this.BtCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BtCerrar.TabIndex = 83;
+            this.BtCerrar.TabStop = false;
+            this.BtCerrar.Click += new System.EventHandler(this.BtCerrar_Click);
+            // 
+            // BtMaximizar
+            // 
+            this.BtMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("BtMaximizar.Image")));
+            this.BtMaximizar.Location = new System.Drawing.Point(922, 7);
+            this.BtMaximizar.Name = "BtMaximizar";
+            this.BtMaximizar.Size = new System.Drawing.Size(25, 25);
+            this.BtMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BtMaximizar.TabIndex = 84;
+            this.BtMaximizar.TabStop = false;
+            this.BtMaximizar.Click += new System.EventHandler(this.BtMaximizar_Click);
+            // 
+            // BtMinimizar
+            // 
+            this.BtMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtMinimizar.Image")));
+            this.BtMinimizar.Location = new System.Drawing.Point(881, 7);
+            this.BtMinimizar.Name = "BtMinimizar";
+            this.BtMinimizar.Size = new System.Drawing.Size(25, 25);
+            this.BtMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BtMinimizar.TabIndex = 85;
+            this.BtMinimizar.TabStop = false;
+            this.BtMinimizar.Click += new System.EventHandler(this.BtMinimizar_Click);
+            // 
+            // BtRestaurar
+            // 
+            this.BtRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.BtRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("BtRestaurar.Image")));
+            this.BtRestaurar.Location = new System.Drawing.Point(922, 7);
+            this.BtRestaurar.Name = "BtRestaurar";
+            this.BtRestaurar.Size = new System.Drawing.Size(25, 25);
+            this.BtRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.BtRestaurar.TabIndex = 86;
+            this.BtRestaurar.TabStop = false;
+            this.BtRestaurar.Visible = false;
+            this.BtRestaurar.Click += new System.EventHandler(this.BtRestaurar_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1000, 550);
+            this.panel1.TabIndex = 83;
+            // 
             // ConfirmacionReserva
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1015, 552);
+            this.ClientSize = new System.Drawing.Size(1000, 550);
+            this.Controls.Add(this.BarraTitulo);
             this.Controls.Add(this.lblVehiculo);
             this.Controls.Add(this.lblMarca);
             this.Controls.Add(this.LblModelo);
@@ -236,9 +321,16 @@
             this.Controls.Add(this.btEditar);
             this.Controls.Add(this.BtCancelar);
             this.Controls.Add(this.BtConfirmar);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ConfirmacionReserva";
             this.Text = "ConfirmacionReserva";
+            this.BarraTitulo.ResumeLayout(false);
+            this.BarraTitulo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.BtCerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtMaximizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtMinimizar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BtRestaurar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -262,5 +354,11 @@
         public System.Windows.Forms.Label lblMarca;
         public System.Windows.Forms.Label LblModelo;
         public System.Windows.Forms.Label lblDominio;
+        private System.Windows.Forms.Panel BarraTitulo;
+        private System.Windows.Forms.PictureBox BtCerrar;
+        private System.Windows.Forms.PictureBox BtMaximizar;
+        private System.Windows.Forms.PictureBox BtMinimizar;
+        private System.Windows.Forms.PictureBox BtRestaurar;
+        private System.Windows.Forms.Panel panel1;
     }
 }

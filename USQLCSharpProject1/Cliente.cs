@@ -13,12 +13,15 @@ namespace ReservaCochera
         private string telefono;
         private string email;
         private string dNI;
+        private int iD_Cliente;
 
+        public int ID_Cliente { get => iD_Cliente; set => iD_Cliente = value; }
         public string Nombre { get => nombre; set => nombre = value; }
         public string Domicilio { get => domicilio; set => domicilio = value; }
         public string Telefono { get => telefono; set => telefono = value; }
         public string Email { get => email; set => email = value; }
         public string DNI { get => dNI; set => dNI = value; }
+
 
         public void Clientes(string nom, string dom, string tel, string mail, string dni)
         {

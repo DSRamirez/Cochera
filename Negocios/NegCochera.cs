@@ -12,9 +12,9 @@ namespace Negocios
     {
         DatosCochera objDC = new DatosCochera();
 
-        public int AltaCochera(Cochera objCochera)
+        public int AltaCochera(Cochera objCochera) //int idcliente, int idplan, int idvehiculo
         {
-            return objDC.AltaCochera(objCochera);
+            return objDC.AltaCochera(objCochera); //ref - idcliente, idplan, idvehiculo
         }
     }
 }

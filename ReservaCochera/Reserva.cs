@@ -74,201 +74,261 @@ namespace ReservaCochera
         private void cb1_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 1;
-            if (cb1.Checked = true)
+            if (!(cb1.Checked = true))
             {
-                cb1.Enabled = true;
+                return;
             }
+            cb1.Enabled = true;
         }
 
         private void cb2_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 2;
-            if (cb2.Checked = true)
+            if (!(cb2.Checked = true))
             {
-                cb2.Enabled = true;
+                return;
             }
+            cb2.Enabled = true;
         }
 
         private void cb3_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 3;
-            if (cb3.Checked = true)
+            if (!(cb3.Checked = true))
             {
-                cb3.Enabled = true;
+                return;
             }
+            cb3.Enabled = true;
         }
 
         private void cb4_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 4;
-            if (cb4.Checked = true)
+            if (!(cb4.Checked = true))
             {
-                cb4.Enabled = true;
+                return;
             }
+            cb4.Enabled = true;
         }
 
         private void cb5_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 5;
-            if (cb5.Checked = true)
+            if (!(cb5.Checked = true))
             {
-                cb5.Enabled = true;
+                return;
             }
+            cb5.Enabled = true;
         }
 
         private void cb6_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 6;
-            if (cb6.Checked = true)
+            if (!(cb6.Checked = true))
             {
-                cb6.Enabled = true;
+                return;
             }
+            cb6.Enabled = true;
         }
 
         private void cb7_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 7;
-            if (cb7.Checked = true)
+            if (!(cb7.Checked = true))
             {
-                cb7.Enabled = true;
+                return;
             }
+            cb7.Enabled = true;
         }
 
         private void cb8_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 8;
-            if (cb8.Checked = true)
+            if (!(cb8.Checked = true))
             {
-                cb8.Enabled = true;
+                return;
             }
+            cb8.Enabled = true;
         }
 
         private void cb9_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 9;
-            if (cb9.Checked = true)
+            if (!(cb9.Checked = true))
             {
-                cb9.Enabled = true;
+                return;
             }
+            cb9.Enabled = true;
         }
 
         private void cb10_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 10;
-            if (cb10.Checked = true)
+            if (!(cb10.Checked = true))
             {
-                cb10.Enabled = true;
+                return;
             }
+            cb10.Enabled = true;
         }
 
         private void cb11_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 11;
-            if (cb11.Checked = true)
+            if (!(cb11.Checked = true))
             {
-                cb11.Enabled = true;
+                return;
             }
+            cb11.Enabled = true;
         }
 
         private void cb12_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 12;
-            if (cb12.Checked = true)
+            if (!(cb12.Checked = true))
             {
-                cb12.Enabled = true;
+                return;
             }
+            cb12.Enabled = true;
         }
 
         private void cb13_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 13;
-            if (cb13.Checked = true)
+            if (!(cb13.Checked = true))
             {
-                cb13.Enabled = true;
+                return;
             }
+            cb13.Enabled = true;
         }
 
         private void cb14_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 14;
-            if (cb14.Checked = true)
+            if (!(cb14.Checked = true))
             {
-                cb14.Enabled = true;
+                return;
             }
+            cb14.Enabled = true;
         }
 
         private void cb15_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 15;
-            if (cb15.Checked = true)
+            if (!(cb15.Checked = true))
             {
-                cb15.Enabled = true;
+                return;
             }
+            cb15.Enabled = true;
         }
 
         private void cb16_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 16;
-            if (cb16.Checked = true)
+            if (!(cb16.Checked = true))
             {
-                cb16.Enabled = true;
+                return;
             }
+            cb16.Enabled = true;
         }
 
         private void cb17_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 17;
-            if (cb17.Checked = true)
+            if (!(cb17.Checked = true))
             {
-                cb17.Enabled = true;
+                return;
             }
+            cb17.Enabled = true;
         }
 
         private void cb18_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 18;
-            if (cb18.Checked = true)
+            if (!(cb18.Checked = true))
             {
-                cb18.Enabled = true;
+                return;
             }
+            cb18.Enabled = true;
         }
 
         private void cb19_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 19;
-            if (cb19.Checked = true)
+            if (!(cb19.Checked = true))
             {
-                cb19.Enabled = true;
+                return;
             }
+            cb19.Enabled = true;
         }
 
         private void cb20_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 20;
-            if (cb20.Checked = true)
+            if (!(cb20.Checked = true))
             {
-                cb20.Enabled = true;
+                return;
             }
+            cb20.Enabled = true;
         }
 
         private void cb21_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 21;
-            if (cb21.Checked = true)
+            if (!(cb21.Checked = true))
             {
-                cb21.Enabled = true;
+                return;
             }
+            cb21.Enabled = true;
         }
 
         private void cb22_CheckedChanged(object sender, EventArgs e)
         {
             Numero = 22;
-            if (cb22.Checked = true)
+            if (!(cb22.Checked = true))
             {
-                cb22.Enabled = true;
+                return;
             }
+            cb22.Enabled = true;
         }
 
         #endregion
+
+        private void CbVehiculo_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (CbVehiculo.SelectedItem.ToString() == "Auto")
+            {
+                lblPAuto.Visible = true;
+                LblPMoto.Visible = false;
+            }
+            else
+            {
+                LblPMoto.Visible = true;
+                lblPAuto.Visible = false;
+            }
+        }
+
+        private void BtCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BtMaximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            BtMaximizar.Visible = false;
+            BtRestaurar.Visible = true;
+        }
+
+        private void BtRestaurar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Normal;
+            BtRestaurar.Visible = false;
+            BtMaximizar.Visible = true;
+        }
+
+        private void BtMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }

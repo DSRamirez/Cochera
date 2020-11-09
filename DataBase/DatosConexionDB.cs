@@ -17,7 +17,7 @@ namespace DataBase
             {
                 conn = new SqlConnection(CadenaConexion);
             }
-            public void AbrirConexion()
+            public SqlConnection AbrirConexion()
             {
                 try
                 {
@@ -32,8 +32,9 @@ namespace DataBase
 
                     throw new Exception("Error al abrir la base de datos", e);
                 }
+            return conn;
             }
-            public void CerrarConexion()
+            public SqlConnection CerrarConexion()
             {
                 try
                 {
@@ -47,6 +48,7 @@ namespace DataBase
 
                     throw new Exception("Error al cerrar la base de datos", e);
                 }
+            return conn;
             }
     }
 }

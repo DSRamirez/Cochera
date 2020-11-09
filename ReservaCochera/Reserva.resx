@@ -2510,4 +2510,40 @@
         gg==
 </value>
   </data>
+  <data name="BtRestaurar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAATr2AAE69gE6sVc6AAAA50lE
+        QVRYR+2WwQnCQBBFtw5BG7ACL9ZhAwpqCfZhsALbUvBqBR70v8NAEA2bmUUN7ocHSzbJPpKdYVNNzZAy
+        F43YOziIhQhlLe4BEAmlLXAVJ3HugPmLuIniAjsxEpMOxmImkCguwDgniPA1eguw4baChWAljsIEGHPN
+        5ttsxFQQtwA322IeECFVYPgC1DBllFPz9IbiAixOLVPTvOwd9AR6Q3EBHuYlOWHRnxGgTywFX8V+zUcF
+        XvFfAs+tmrZOe89OVIBxKCYQLUN3TCDaiNwxAS9hAQ6QHCQR6QsH114brqbmi0npAaExBPydIbXjAAAA
+        AElFTkSuQmCC
+</value>
+  </data>
+  <data name="BtMinimizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAACVJREFUWEftw0EJADAMBLBzXgmzXBH36SCBBAD4wZRrrwwAXJYszDkQ4XhCnb8A
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="BtMaximizar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAAAhAAAAIQGqCtXUAAAAwUlE
+        QVRYR+2XvQ3CUAwGI5gFJP7HAtICO0FFxywMATOEuxRPkLQxaWzpUvhF/u6liiuq6XCEqHJ2N699XGEP
+        B1hCVDnbDLPuUARqmMAM1rAJwtlmTOECRUAjD57whlcQzjZjDmdoBbz9AlbgSzdQyP6QONPZZvgltmC/
+        lJ/Iw5/mwOVsM8zqVQqkQAqkQAqkQAqkQAqkwGgCNkf9LR99MfGhieuSB9GrmRm91cxF8QQ2dxBVzjbD
+        2z+gCHzzx/W8aj40Br8pZ42fAgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="BtCerrar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAIFJREFUWEftlEEKgDAMBPs0RRB9pwd9nPoGs62BClItmHjZgaXpaRZaEgghhFQw
+        SZo0Fuklcxq/ZZSsklIJyLfzNKFUQuVdvBlyV8JNruQl3OUKSkD8ixwMkl3ySwGVQ+z+BLlccSsBOT5f
+        G29XzEuo/M0iMilRs4qXNBJCCHkihANiHB/QS//kZgAAAABJRU5ErkJggg==
+</value>
+  </data>
 </root>

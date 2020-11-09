@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace ReservaCochera
 {
@@ -55,15 +56,15 @@ namespace ReservaCochera
             int vGrabados = -1;
             int nGrabados = -1;
 
-            Cliente_A_Obj();
             Plan_A_Obj();
-            Cochera_A_Obj();
+            Cliente_A_Obj();
             Vehiculo_A_Obj();
+            Cochera_A_Obj();
 
-            cGrabados = objNegCliente.AltaCliente(objentCliente);
             pGrabados = objNegPlan.AltaPlan(objentPlan);
-            vGrabados = objNegVehiculo.AltaVehiculo(objentVehiculo);
-            nGrabados = objNegCochera.AltaCochera(objentCochera);
+            cGrabados = objNegCliente.AltaCliente(objentCliente);
+            vGrabados = objNegVehiculo.AltaVehiculo(objentVehiculo); //, objentCliente.ID_Cliente
+            nGrabados = objNegCochera.AltaCochera(objentCochera); //objentCliente.ID_Cliente, objentPlan.ID_Plan, objentVehiculo.Id_Vehiculo
 
             if (cGrabados == -1)
             {
@@ -109,5 +110,27 @@ namespace ReservaCochera
         }
 
         #endregion
+
+        private void BtCerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void BtMaximizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+            BtMaximizar.Visible = false;
+            BtRestaurar.Visible = true;
+        }
+
+        private void BtRestaurar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
     }
 }
