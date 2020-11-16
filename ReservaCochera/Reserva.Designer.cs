@@ -653,6 +653,7 @@
             // BarraTitulo
             // 
             this.BarraTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.BarraTitulo.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.BarraTitulo.Controls.Add(this.BtRestaurar);
             this.BarraTitulo.Controls.Add(this.BtMinimizar);
             this.BarraTitulo.Controls.Add(this.BtMaximizar);
@@ -668,7 +669,7 @@
             // 
             this.BtRestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("BtRestaurar.Image")));
-            this.BtRestaurar.Location = new System.Drawing.Point(1423, 7);
+            this.BtRestaurar.Location = new System.Drawing.Point(1419, 7);
             this.BtRestaurar.Name = "BtRestaurar";
             this.BtRestaurar.Size = new System.Drawing.Size(25, 25);
             this.BtRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -682,7 +683,7 @@
             this.BtMinimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("BtMinimizar.Image")));
-            this.BtMinimizar.Location = new System.Drawing.Point(1383, 7);
+            this.BtMinimizar.Location = new System.Drawing.Point(1379, 7);
             this.BtMinimizar.Name = "BtMinimizar";
             this.BtMinimizar.Size = new System.Drawing.Size(25, 25);
             this.BtMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -695,7 +696,7 @@
             this.BtMaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("BtMaximizar.Image")));
-            this.BtMaximizar.Location = new System.Drawing.Point(1423, 7);
+            this.BtMaximizar.Location = new System.Drawing.Point(1419, 7);
             this.BtMaximizar.Name = "BtMaximizar";
             this.BtMaximizar.Size = new System.Drawing.Size(25, 25);
             this.BtMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -708,7 +709,7 @@
             this.BtCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.BtCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtCerrar.Image = ((System.Drawing.Image)(resources.GetObject("BtCerrar.Image")));
-            this.BtCerrar.Location = new System.Drawing.Point(1463, 7);
+            this.BtCerrar.Location = new System.Drawing.Point(1459, 7);
             this.BtCerrar.Name = "BtCerrar";
             this.BtCerrar.Size = new System.Drawing.Size(25, 25);
             this.BtCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
